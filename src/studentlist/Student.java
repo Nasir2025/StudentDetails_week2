@@ -12,7 +12,7 @@ public class Student // model the student raw data
 {
     private String name; // variables private 
    private int sid; // principle "encapsulation"
-   private int cname;
+private int sem;
     /**
      * @return the name
      */
