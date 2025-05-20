@@ -17,7 +17,7 @@ public class StudentList {
         // TODO code application logic here
         //user interaction
         // define 3 students and print 
-        Student[] list = new Student[3]; // sid, name 
+        Student[] list = new Student[2]; // sid, name 
         //array of object declaration
         //create object
         Student s1 = new Student();
@@ -27,8 +27,8 @@ public class StudentList {
         s2.setName("tarun");
         s2.setSid(2);
          Student s3 = new Student();
-        s3.setName("john");
-        s3.setSid(3);
+        //* s3.setName("john");
+        //* s3.setSid(3);
        // s1,s2,s3 - saved the object in array
        list[0] = s1;
        list[1]=s2;
